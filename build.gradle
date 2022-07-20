@@ -1,0 +1,21 @@
+subprojects {
+    apply plugin: 'java'
+
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        implementation group: 'org.slf4j', name: 'slf4j-api', version: '1.7.36'
+        implementation group: 'ch.qos.logback', name: 'logback-core', version: '1.2.11'
+        implementation group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.11'
+
+
+        compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.24'
+
+        annotationProcessor group: 'org.projectlombok', name: 'lombok', version: '1.18.24'
+
+    }
+}
+
+
