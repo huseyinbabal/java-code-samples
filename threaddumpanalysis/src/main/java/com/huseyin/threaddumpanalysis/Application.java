@@ -8,25 +8,17 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class Application {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         ExecutorService executor = Executors.newFixedThreadPool(4);
         int counter = 0;
         while (true) {
             executor.submit(newTask(counter));
             counter++;
+            Thread.sleep(1000);
         }
     }
 
     private static Runnable newTask(int i) {
-        return () -> {
-            log.info("Running task {}", i);
-            try {
-                Thread.sleep(500);
-            }
-            catch (InterruptedException e) {
-                throw new RuntimeException(e);
-            }
-        };
+        return () -> log.info("Running task {}", i);
     }
-
 }
