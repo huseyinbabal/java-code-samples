@@ -10,3 +10,4 @@
 
 rootProject.name = 'java-code-samples'
 include 'threaddumpanalysis'
+include 'deadlock'
