@@ -1,3 +1,5 @@
+### Related Article
+[https://huseyinbabal.com/2022/07/23/java-thread-dump-analysis/](https://huseyinbabal.com/2022/07/23/java-thread-dump-analysis/)
 ### Requirements
 - JDK 11+
 
