@@ -1,0 +1,9 @@
+plugins {
+    id 'application'
+}
+
+application {
+    mainClass = project.hasProperty("mainClass") ? project.getProperty("mainClass") : "NULL"
+}
+
+
