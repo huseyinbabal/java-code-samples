@@ -1,5 +1,5 @@
 ### Related Article
-[https://huseyinbabal.com/2022/07/30/understanding-java-thread-deadlock/](https://huseyinbabal.com/2022/07/30/understanding-java-thread-deadlock/)
+[https://huseyinbabal.com/2022/08/14/java-heap-dump-analysis-with-examples/](https://huseyinbabal.com/2022/08/14/java-heap-dump-analysis-with-examples/)
 
 ### Requirements
 - JDK 11+
